@@ -1,17 +1,17 @@
 ## Overview
 
-Let us assume that fees on bitcoin must rise substantially to compensate for the declining block subsidy in the coming decades.
+It remains an open question whether bitcoin fees will rise substantially in the coming decades to compensate for the declining block subsidy.
 
 Some researchers have pointed to flat or declining total fees per block from the past several years as evidence that bitcoin is not making progress in this regard.
 
-Here I make the case that fees per block is not a meaningful metric at this point in time. Rather, unused blockspace is a more indicative metric at present.
+Here I make the case that _fees per block_ is not a meaningful metric at this point in time for guaging the development of a robust blockspace market. Rather, _unused blockspace_ is a more indicative metric at present.
 
 
 ### Two Phases of Blockspace Market Development
 
-The development of a sufficient blockspace market can be divided into two phases.
+The development of a robust blockspace market can be divided into two phases.
 
-The first phase is the period when blocks are *not* consistently full (Blockspace Abundance), and the second phrase is when blocks *are* consistently full (Blockspace Scarcity).
+The first phase is the period when blocks are **not** consistently full (Blockspace Abundance), and the second phrase is when blocks **are** consistently full (Blockspace Scarcity).
 
 During Blockspace Abundance (the phase we are in now), unused blockspace is much more indicative metric of progress than fees per block - the more it moves toward zero, the closer we get to reaching Blockspace Scarcity. This is because while unused blockspace remains greater than zero, it cannot be expected for fees to rise meaningfully at all, since blockspace can be easily claimed for 1 sat/vbyte.
 
@@ -31,4 +31,4 @@ In any case, the longer timeframes of data one looks at, the less this transitio
 
 ### Other Factors
 
-During Blockspace Abundance (and especially as the transition approaches), unused blockspace is a better proxy for progress than fees per block is, but it can still be confounded by other factors. I will expand on this in a future piece.
+During Blockspace Abundance, unused blockspace is a better proxy for progress than fees per block is, but it can still be confounded by other factors (especially as the transition to Blockspace Scarcity approaches). I will expand on this in a future piece.
