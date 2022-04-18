@@ -22,11 +22,11 @@ This distinction helps avoid the trap where blocks go from 70% full to 80% full,
 
 ### A Fuzzy Line
 
-The distinction between periods of Blockspace Abundance and Scarcity may not be very clean. There have been (and may be more) periods of several months that switched between the two phases. But considering that the longest periods of Blockspace Scarcity have been no more than a few months, when viewing the subject from a long (multi-decade) timeframe, I think it is safe to say that we are still under Blockspace Abundance.
+The distinction between periods of Blockspace Abundance and Scarcity may not be very clean. There have been (and may be more) periods that switched between the two phases if you look at data by the month. But considering that the longest periods of Blockspace Scarcity have been no more than a few months, when viewing the subject from a long (multi-decade) timeframe, it is safe to say that we are still under Blockspace Abundance.
 
-Assuming a robust blockspace market does eventually form, it remains plausible that there will be a long intermediate phase of switching back and forth between Blockspace Abundance and Scarcity with gradually lengthening period of full blocks before Blockspace Scarcity becomes the permanent norm. Also plausible is that some phenomenon triggers a swift uptick in blockspace demand and that the transition occurs very quickly and cleanly.
+Assuming a robust blockspace market does eventually form, it remains plausible that there will be a long intermediate phase of switching back and forth between Blockspace Abundance and Scarcity with gradually lengthening period of full blocks before Blockspace Scarcity becomes the permanent norm. Also plausible is that some phenomenon triggers a swift uptick in blockspace demand at the right time and that the transition occurs very quickly and cleanly.
 
-In any case, the longer timeframes of data one looks at, the less this transitionary period matters.
+In any case, the more one zooms out and look at longer term trends, the less obfuscating a potentially fuzzy transitionary period will be.
 
 
 ### Other Factors
