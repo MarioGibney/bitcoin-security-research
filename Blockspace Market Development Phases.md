@@ -1,4 +1,4 @@
-## Overview
+## Context
 
 It remains an open question whether bitcoin fees will rise substantially in the coming decades to compensate for the declining block subsidy.
 
@@ -7,7 +7,7 @@ Some researchers have pointed to flat or declining total fees per block from the
 Here I make the case that _fees per block_ is not a meaningful metric at this point in time for guaging the development of a robust blockspace market. Rather, _unused blockspace_ is a more indicative metric at present.
 
 
-### Two Phases of Blockspace Market Development
+## Two Phases of Blockspace Market Development
 
 The development of a robust blockspace market can be divided into two phases.
 
@@ -19,7 +19,7 @@ During Blockspace Scarcity, the situation changes dramatically. One cannot simpl
 
 This distinction helps avoid the trap where blocks go from 70% full to 80% full, to 90% full (consitituting real progress), but because fees don't rise meaningfully during that time, people mistakenly believe that fee market development is stagnant.
 
-
+## Notes
 ### A Fuzzy Line
 
 The distinction between periods of Blockspace Abundance and Scarcity may not be very clean. There have been (and may be more) periods that switched between the two phases if you look at data by the month. But considering that the longest periods of Blockspace Scarcity have been no more than a few months, when viewing the subject from a long (multi-decade) timeframe, it is safe to say that we are still under Blockspace Abundance.
