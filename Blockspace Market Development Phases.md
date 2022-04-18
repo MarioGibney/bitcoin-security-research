@@ -17,7 +17,7 @@ During Blockspace Abundance (the phase we are in now), unused blockspace is much
 
 During Blockspace Scarcity, the situation changes dramatically. One cannot simply broadcast a transaction at the minimum fee and patiently wait for confirmation. Instead, all potential users of blockspace must compete by bidding, regardless of how patient they are. In a sense, the blockspace market only really begins once this happens. In this phase, fees per block as a simple metric become much more indicative.
 
-This distinction helps avoid the trap where blocks go from 70% full to 80% full, to 90% full (consitituting real progress), but because fees don't rise meaningfully during that time, people mistakenly believe that fee market development is stagnant.
+This distinction helps avoid the trap where blocks go from 70% full to 80% full, to 90% full (constituting real progress), but because fees don't rise meaningfully during that time, people mistakenly believe that fee market development is stagnant.
 
 ## Notes
 ### A Fuzzy Line
