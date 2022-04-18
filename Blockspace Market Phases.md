@@ -1,0 +1,34 @@
+## Overview
+
+Let us assume that fees on bitcoin must rise substantially to compensate for the declining block subsidy in the coming decades.
+
+Some researchers have pointed to flat or declining total fees per block from the past several years as evidence that bitcoin is not making progress in this regard.
+
+Here I make the case that fees per block is not a meaningful metric at this point in time. Rather, unused blockspace is a more indicative metric at present.
+
+
+### Two Phases of Blockspace Market Development
+
+The development of a sufficient blockspace market can be divided into two phases.
+
+The first phase is the period when blocks are *not* consistently full (Blockspace Abundance), and the second phrase is when blocks *are* consistently full (Blockspace Scarcity).
+
+During Blockspace Abundance (the phase we are in now), unused blockspace is much more indicative metric of progress than fees per block - the more it moves toward zero, the closer we get to reaching Blockspace Scarcity. This is because while unused blockspace remains greater than zero, it cannot be expected for fees to rise meaningfully at all, since blockspace can be easily claimed for 1 sat/vbyte.
+
+During Blockspace Scarcity, the situation changes dramatically. One cannot simply broadcast a transaction at the minimum fee and patiently wait for confirmation. Instead, all potential users of blockspace must compete by bidding, regardless of how patient they are. In a sense, the blockspace market only really begins once this happens. In this phase, fees per block as a simple metric become much more indicative.
+
+This distinction is meant to help avoid the trap where blocks go from 70% full to 80% full, to 90% full, but because fees don't rise meaningfully during that time, one thinks that progress isn't being made. 
+
+
+### A Fuzzy Line
+
+The distinction between periods of Blockspace Abundance and Scarcity may not be very clean. There have been (and may be more) periods of several months that switched between the two phases. But considering that the longest periods of Blockspace Scarcity have been no more than a few months, when viewing the subject from a long (multi-decade) timeframe, I think it is safe to say that we are still under Blockspace Abundance.
+
+Assuming a robust blockspace market does eventually form, it remains plausible that there will be a long intermediate phase of switching back and forth between Blockspace Abundance and Scarcity with gradually lengthening period of full blocks before Blockspace Scarcity becomes the permanent norm. Also plausible is that some phenomenon triggers a swift uptick in blockspace demand and that the transition occurs very quickly and cleanly.
+
+In any case, the longer timeframes of data one looks at, the less this transitionary period matters.
+
+
+### Other Factors
+
+During Blockspace Abundance (and especially as the transition approaches), unused blockspace is a better proxy for progress than fees per block is, but it can still be confounded by other factors. I will expand on this in a future piece.
