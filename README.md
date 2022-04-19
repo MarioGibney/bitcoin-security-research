@@ -2,7 +2,7 @@
 
 It remains an open question if and how Bitcoin can adapt to a future where the block subsidy has become negligible.
 
-This document serves as a place to organize an exploration of this question.
+This document serves as a place to organize an exploration of this question. Other files in this repository are my own published research related to the topic.
 
 
 ## Existing Research
