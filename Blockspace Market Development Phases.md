@@ -15,7 +15,7 @@ The first phase is the period when blocks are **not** consistently full (Blocksp
 
 During Blockspace Abundance (the phase we are in now), unused blockspace is a much more indicative metric of progress than fees per block - the more it moves toward zero, the closer we get to reaching Blockspace Scarcity. This is because while unused blockspace remains greater than zero, it cannot be expected for fees to rise meaningfully at all, since blockspace can be easily claimed for 1 sat/vbyte.
 
-During Blockspace Scarcity, the situation changes dramatically. One cannot simply broadcast a transaction at the minimum fee and patiently wait for confirmation. Instead, all potential users of blockspace must compete by bidding, regardless of how patient they are. In a sense, the blockspace market only really begins once this happens. In this phase, fees per block as a simple metric become much more indicative.
+During Blockspace Scarcity, the situation changes dramatically. One cannot simply broadcast a transaction at the minimum fee and patiently wait for confirmation. Instead, all potential users of blockspace must compete by bidding, regardless of how patient they are. In a certain sense, the blockspace market only really begins to develop once this happens. In this phase, fees per block as a simple metric become much more indicative.
 
 This distinction helps avoid the trap where blocks go from 70% full to 80% full, to 90% full (constituting real progress), but because fees don't rise meaningfully during that time, people mistakenly believe that blockspace market development is stagnant.
 
