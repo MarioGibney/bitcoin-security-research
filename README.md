@@ -9,3 +9,4 @@ This document serves as a place for me to organize my exploration of this questi
 
 [A Model for Bitcoin's Security and the Declining Block Subsidy](https://uncommoncore.co/wp-content/uploads/2019/10/A-model-for-Bitcoins-security-and-the-declining-block-subsidy-v1.06.pdf) - Hasu, James Prestwich, Brandon Curtis
 
+[Two Phases of Blockspace Market Development](https://github.com/MarioGibney/bitcoin-security-research/blob/main/Blockspace%20Market%20Development%20Phases.md) - Mario Gibney
