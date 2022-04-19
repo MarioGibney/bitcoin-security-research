@@ -31,4 +31,4 @@ In any case, the more one zooms out and look at longer term trends, the less obf
 
 ### Other Factors
 
-During Blockspace Abundance, unused blockspace is a better proxy for progress than fees per block is, but it can still be confounded by other factors (especially as the transition to Blockspace Scarcity approaches). I will expand on this in a future piece.
+Despite its usefuleness as an indicator, unused blockspace can still be confounded or distorted by other factors (especially as the transition to Blockspace Scarcity approaches). I will expand on this in a future piece.
