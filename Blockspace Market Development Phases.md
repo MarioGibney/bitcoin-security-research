@@ -1,3 +1,5 @@
+[work in progress]
+
 ## Background
 
 It remains an open question whether bitcoin fees will rise substantially in the coming decades to compensate for the declining block subsidy.
