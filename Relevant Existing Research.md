@@ -7,7 +7,7 @@ This repository serves as a place to organize my exploration of this question. O
 I would be grateful to anyone who can point to relevant research not already linked to here.
 
 
-## Documents
+## Writing
 
 [A Model for Bitcoin's Security and the Declining Block Subsidy](https://uncommoncore.co/wp-content/uploads/2019/10/A-model-for-Bitcoins-security-and-the-declining-block-subsidy-v1.06.pdf) - Hasu, James Prestwich, Brandon Curtis
 
