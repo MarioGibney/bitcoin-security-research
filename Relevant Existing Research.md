@@ -31,10 +31,3 @@ I would be grateful to anyone who can point to relevant research not already lin
 https://twitter.com/fnietom/status/1457304328000126981?s=20&t=dik2ApdlGFau_y9wjUBarA
 
 
-## Individuals
-
-https://twitter.com/hasufl
-https://twitter.com/Nic__Carter
-https://twitter.com/LynAldenContact
-https://twitter.com/Truthcoin
-https://twitter.com/LucasNuzzi
