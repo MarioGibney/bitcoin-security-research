@@ -21,6 +21,12 @@ I would be grateful to anyone who can point to relevant research not already lin
 
 [Security Budget II, Low Fees, and Merged Mining](https://www.truthcoin.info/blog/security-budget-ii-mm/) - Paul Sztorc
 
+[Bitcoin Security Part I: A Negative Exponential](https://www.jordanmmck.com/crypto/bitcoin-security) - jordanmmck
+
+[Bitcoin Security Part II: One Chart](https://www.jordanmmck.com/crypto/bitcoin-chart) - jordanmmck
+
+[Bitcoin Security Part III: ASIC Edition](https://www.jordanmmck.com/crypto/bitcoin-asic) - jordanmmck
+
 ## Lectures
 
 [10 years of Bitcoin: Evaluating its Performance as a Monetary System](https://youtu.be/AyOyNF-bCkA) - Nic Carter
