@@ -15,6 +15,11 @@ I would be grateful to anyone who can point to relevant research not already lin
 
 [Bitcoin: Fee-Based Security Modeling](https://www.lynalden.com/bitcoin-security-modeling/) - Lyn Alden
 
+[Toward Overcoming the Undercutting Problem](https://arxiv.org/abs/2007.11480) - Tiantian Gong, Mohsen Minaei, Wenhai Sun, Aniket Kate
+
+[Security Budget in the Long Run](https://www.truthcoin.info/blog/security-budget/) - Paul Sztorc
+
+[Security Budget II, Low Fees, and Merged Mining](https://www.truthcoin.info/blog/security-budget-ii-mm/) - Paul Sztorc
 
 ## Lectures
 
@@ -25,3 +30,11 @@ I would be grateful to anyone who can point to relevant research not already lin
 
 https://twitter.com/fnietom/status/1457304328000126981?s=20&t=dik2ApdlGFau_y9wjUBarA
 
+
+## Individuals
+
+https://twitter.com/hasufl
+https://twitter.com/Nic__Carter
+https://twitter.com/LynAldenContact
+https://twitter.com/Truthcoin
+https://twitter.com/LucasNuzzi
