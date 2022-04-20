@@ -11,8 +11,6 @@ I would be grateful to anyone who can point to relevant research not already lin
 
 [A Model for Bitcoin's Security and the Declining Block Subsidy](https://uncommoncore.co/wp-content/uploads/2019/10/A-model-for-Bitcoins-security-and-the-declining-block-subsidy-v1.06.pdf) - Hasu, James Prestwich, Brandon Curtis
 
-[Blockspace Market Development Phases](https://github.com/MarioGibney/bitcoin-security-research/blob/main/Blockspace%20Market%20Development%20Phases.md) - Mario Gibney
-
 [Bitcoin: Fee-Based Security Modeling](https://www.lynalden.com/bitcoin-security-modeling/) - Lyn Alden
 
 [Toward Overcoming the Undercutting Problem](https://arxiv.org/abs/2007.11480) - Tiantian Gong, Mohsen Minaei, Wenhai Sun, Aniket Kate
