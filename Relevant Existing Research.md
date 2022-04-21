@@ -4,7 +4,7 @@ It remains an open question if and how Bitcoin can adapt to a future where the b
 
 This repository serves as a place to organize my exploration of this question. Other files in this repository are my own published research related to the topic, and links to other sources are contained in this document.
 
-I would be grateful to anyone who can point to relevant research not already linked to here.
+I'll be grateful to anyone who directs me to relevant research not already mentioned here.
 
 
 ## Writing
