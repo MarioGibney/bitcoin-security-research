@@ -19,7 +19,7 @@ At present (2022), the overwhelming majority [add actual number here] of incenti
 
 [add data point about peak fee:subsidy ratio]
 
-Barring any momentous changes to bitcoin's ruleset or the conditions in which it exists (e.g. some sort of crowd-source direct-to-miner reward scheme), eventually the majority of the mining reward will come from fees alone.
+Barring any momentous changes to bitcoin's ruleset or the conditions in which it exists (e.g. some sort of crowd-sourced direct-to-miner reward scheme), eventually the majority of the mining reward will come from fees alone.
 
 
 ## What properties constitute a Robust Blockspace Market?
