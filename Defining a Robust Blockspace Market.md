@@ -24,9 +24,7 @@ Barring any momentous changes to bitcoin's ruleset or the conditions in which it
 
 ## What properties constitute a Robust Blockspace Market?
 
-Let's take "Robust" to mean "adequately provides for bitcoin's security".
-
-Presumably, there are at least 2 key properties:
+There are at least 2 necessary properties:
 
 ### Size
 
