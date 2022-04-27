@@ -28,16 +28,20 @@ There are at least 2 necessary properties:
 
 ### Size
 
-As the block reward decreases, the network becomes more and more cheap to attack, which would interrupt normal operations. As such, there presumably exists a certain threshold of total fees over time that must be cleared for the Blockspace Market to be Robust.
+As the block reward decreases, the network becomes more and more cheap to attack, which would interrupt normal operations.
+
+There presumably exists a certain threshold of total fees over time that must be cleared for the Blockspace Market to qualify as Robust.
 
 ### Stability
 
-The subsidy has perfect stability between halvenings. This means that while fees constitue a negligible portion of the block reward, the block reward stays relatively consistent block to block. In a subsidy-negligible scenario, it can be assumed that there would be greater variance in total available block reward between each block. (Even if blockspace demand stayed perfectly consistent, the poisson distribution of blocktimes would result in block reward variance.) There presumably exists certain levels of Blockspace Demand volatility that would interrupt normal functioning of bitcoin, which implies some theoretical minimum threshold needed.
+The block subsidy has perfect stability between halvenings. This means that while fees constitue a negligible portion of the block reward, the block reward stays relatively consistent block to block. In a subsidy-negligible scenario, it can be assumed that there would be greater variance in total available block reward between each block. (Even if blockspace demand stayed perfectly consistent, the poisson distribution of blocktimes would result in block reward variance.)
+
+There presumably exists certain levels of Blockspace Demand volatility that would interrupt normal functioning of bitcoin, which implies some theoretical minimum threshold needed.
 
 
 ## Further Research
 
-More research on bitcoin's security model and the types of attacks that would threaten an insecure change.
+More research on bitcoin's security model and the types of attacks that would threaten an undersecured chain.
 
 This would help provide clear estimates on the size and stability thresholds needed for bitcoin to continue normal functionality.
 
