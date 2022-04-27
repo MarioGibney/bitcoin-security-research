@@ -1,3 +1,5 @@
+[work in progress]
+
 ## What is a Blockspace Market?
 
 A Blockspace Market refers to total demand to use the limited space in bitcoin's blocks over a given period of time.
