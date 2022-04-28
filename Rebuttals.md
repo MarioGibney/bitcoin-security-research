@@ -10,7 +10,7 @@ Argument:
 
 Considerations: 
 
-1. Depending on blockspace demand elasticity, it is not guaranteed that a blocksize reduction would result in greater total fees - the opposite may be true. Imagine a scenario where there is an average 10 sat/byte demand while the blocksize is 1 MB, or 0.1BTC/block in total. With high enough demand elasticity, a reduction to a blocksize of 0.5 MB may result in average demand of only 18 sat/byte. This would result in a reduction in total fees to 0.09BTC/block. (If anyone has ideas on how to estimate demand elasticity for a good with historically ~zero supply elasticity, please message me!)
+1. Depending on blockspace demand elasticity, it is not guaranteed that a blocksize reduction would result in greater total fees - the opposite may be true. Imagine a scenario where there is an average 10 sat/byte demand while the blocksize is 1 MB, or 0.1BTC/block in total. With high enough demand elasticity, a reduction to a blocksize of 0.5 MB may result in average demand of only 18 sat/byte. This would result in a reduction in total fees to 0.09BTC/block. (If anyone has ideas on how to estimate demand elasticity for a good with historically ~zero supply variance, please message me!)
 
 2. A blocksize reduction requires a soft fork. Forking the bitcoin protocol is a risk factor, requires major coordination across the entire industry, and will become more difficult and costly as the bitcoin economy grows.
 
