@@ -1,6 +1,6 @@
 [work in progress]
 
-This is a place to record commonly repeated false or over-simplified assertions about bitcoin's security model.
+This is a place to record and respond to commonly repeated false or over-simplified assertions on bitcoin's future security model.
 
 ## Reducing Blocksize to Generated Needed Fees
 
