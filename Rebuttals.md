@@ -2,7 +2,7 @@
 
 This is a place to record commonly repeated false or over-simplified assertions about bitcoin's security model.
 
-## Reducing Blocksize
+## Reducing Blocksize to Generated Needed Blockspace Demand
 
 Argument:
 
