@@ -6,7 +6,7 @@ It remains an open question in bitcoin whether a [Robust Blockspace Market](http
 
 Some researchers have pointed to flat or declining total fees per block from the past several years as evidence that bitcoin is not making progress in this regard.
 
-Here I make the case that _fees per block_ is not a meaningful metric at this point in time for guaging the development of a robust blockspace market. Rather, _unused blockspace_ is a more indicative metric at present.
+Here I make the case that _fees per block_ is not a meaningful metric at this point in time for measuring this progress. Rather, _unused blockspace_ is a more indicative metric at present.
 
 
 ## Two Phases of Blockspace Market Development
