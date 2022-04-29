@@ -2,7 +2,7 @@
 
 ## Background
 
-It remains an open question in bitcoin whether a [Robust Blockspace Market](https://github.com/MarioGibney/bitcoin-security-research/blob/main/Defining%20a%20Robust%20Blockspace%20Market.md) will develope in the coming decades to compensate for the declining block subsidy.
+It remains an open question in bitcoin whether a [Robust Blockspace Market](https://github.com/MarioGibney/bitcoin-security-research/blob/main/Defining%20a%20Robust%20Blockspace%20Market.md) will develop in the coming decades to compensate for the declining block subsidy.
 
 Some researchers have pointed to flat or declining total fees per block from the past several years as evidence that bitcoin is not making progress in this regard.
 
