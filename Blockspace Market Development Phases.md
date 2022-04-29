@@ -13,7 +13,7 @@ Here I make the case that _fees per block_ is not a meaningful metric at this po
 
 The development of a robust blockspace market can be divided into two phases.
 
-The first phase is the period when blocks are **not** consistently full (Blockspace Abundance), and the second phrase is when blocks **are** consistently full (Blockspace Scarcity).
+The first phase is the period when blocks are **not** consistently full (Blockspace Abundance), and the second phase is when blocks **are** consistently full (Blockspace Scarcity).
 
 During Blockspace Abundance (the phase we are in now), unused blockspace is a much more indicative metric of progress than fees per block - the more it moves toward zero, the closer we get to reaching Blockspace Scarcity. This is because while unused blockspace remains greater than zero, it cannot be expected for fees to rise meaningfully at all, since blockspace can be easily claimed for 1 sat/vbyte.
 
