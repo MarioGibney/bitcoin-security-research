@@ -7,7 +7,8 @@ Neither unused blockspace nor total fees is a perfect measurement. Both are prox
 For example, ongoing technological developments affect blockspace usage in these two ways:
 
 (1) smoothen out the peaks and troughs of blockspace demand
-(2) increase the economic activity:blockspace ratio
+
+(2) increase the economic density
 
 A clear example of (1) is proposed CheckTemplateVerify op code.
 
