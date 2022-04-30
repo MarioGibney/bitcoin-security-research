@@ -23,6 +23,8 @@ I'll be grateful to anyone who directs me to relevant research not already menti
 
 [Bitcoin Security Part III: ASIC Edition](https://www.jordanmmck.com/crypto/bitcoin-asic) - jordanmmck
 
+[Bitcoin Address Re-use Statistics](https://blog.bitmex.com/bitcoin-address-re-use-statistics/) - Bitmex Research
+
 ## Lectures
 
 [10 years of Bitcoin: Evaluating its Performance as a Monetary System](https://youtu.be/AyOyNF-bCkA) - Nic Carter
