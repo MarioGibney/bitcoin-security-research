@@ -17,17 +17,17 @@ The two are related in several ways:
 
 Using BTC requires blockspace at some level (to move BTC requires blockspace for a single transaction, or to move the BTC into a payment channel, sidechain, etc).
 
-Using blockspace does not strictly require BTC (as miners could be pay in other asset via out-of-band fees), but this is highly unusual at present. Paying for blockspace through standard transaction fees requires using BTC the asset, which is by far the most economically efficient way of doing so.
+Using blockspace does not strictly require BTC as a user could pay a miner in another asset via out-of-band fees, but this is highly unusual at present. Paying for blockspace through standard transaction fees is by far the most economically efficient way of paying for blockspace, and requires using BTC the asset.
 
-Despite their close relation to one another, they are still separate goods, and must be treated as such. This is made clear when considering that different uses of bitcoin might rely more or less heavily on either BTC or blockspace.
+Despite their close relation to one another, they are still distinct goods, and must be treated as such. This is made clear when considering that different uses of bitcoin might rely more or less heavily on either BTC or blockspace.
 
 We can call this proportion the BTC:Blockspace ratio.
 
-Consider an individual using bitcoin as a store of value by keeping a large amount of bitcoin in a single UTXO and only transfering bitcoin out of it once every few years. This is a usecase with a high BTC:Blockspace ratio, because the demand for BTC is ongoing, but there is only occasional, limited demand for blockspace.
+Consider a person using bitcoin as a store of value by keeping a large amount of bitcoin in a single UTXO and only transfering bitcoin out of it once every few years. This is a usecase with a high BTC:Blockspace ratio, because the demand for BTC is ongoing, but there is only occasional, limited demand for blockspace.
 
-Now consider an individual that uses a payment channel to make many frequent small payments, and regularly rebalances the channel with on-chain transactions. This is an example of a use case with a low BTC:Blockspace ratio. Relative to the quantity of BTC that is needed, the usecase produces a large amount of demand for blockspace.
+Now consider a person that uses a payment channel to make many frequent small payments, and regularly rebalances the channel by making on-chain transactions. This is an example of a use case with a low BTC:Blockspace ratio. Relative to the quantity of BTC that is needed, the usecase produces a large amount of demand for blockspace.
 
-It should be clear that both BTC the asset and blockspace produce economic value in slightly different ways, and as such the incentive to disrupt will be slightly different. The value of each must be considered when analyzing risk of an attack against bitcoin:
+It should be clear that both BTC the asset and blockspace produce economic value in slightly different ways, and as such the incentive to disrupt either good will be differ. The value of each must be considered when analyzing risk of an attack against bitcoin:
 
 AI(total) = AI(blockspace value) + AI(BTC asset value)
 
@@ -43,8 +43,10 @@ While bitcoin is in blockspace scarcity, as blockspace value increases, EC(attac
 
 At present, as BTC asset value increases, EC(attack mining) increases proportionally through the block subsidy increasing MR and commitment.
 
-Due to bitcoin's gradual disappearance of the block subsidy, however, increases in BTC asset value have a negligible direct impact on EC(attack mining) beyond a certain time frame.
+Due to the gradual disappearance of the block subsidy, however, increases in BTC asset value will eventually have a negligible direct impact on EC(attack mining).
 
-This suggests that in the future, _there will exist a threshold of BTC asset value >>> blockspace value such that AI(total) > EC(attack mining)_.
+This suggests that in the future, _there will exist a theoretical threshold of BTC asset value >>> blockspace value such that AI(total) > EC(attack mining)_.
 
 Alternately stated, a key factor in forming our expectation of future mining attacks against bitcoin is to what degree BTC asset value decouples from blockspace value.
+
+Or: it is possible that fees rise insufficiently for bitcoin to remain secure.
