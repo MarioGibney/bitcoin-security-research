@@ -35,15 +35,17 @@ The first phase is the period when blocks are **not** consistently full (Blocksp
 
 During Blockspace Abundance (the phase we are in now), unused blockspace remains greater than zero, and blockspace can be quickly claimed for the minimum fee of 1 sat/vbyte. No economically rational consumer of blockspace can be expected to pay more than that minimum, regardless of how much they value the blockspace, so it cannot be expected for fees to rise meaningfully at all.
 
-At this point, unused blockspace is a much more indicative metric of progress than fees per block - the more it moves toward zero, the closer we get to reaching Blockspace Scarcity.
-
 ### Blockspace Scarcity
 
 During Blockspace Scarcity, the situation changes dramatically. One cannot simply broadcast a transaction at the minimum fee and patiently wait for confirmation. Instead, all potential users of blockspace must compete by bidding, regardless of how patient they are. In a certain sense, the blockspace market only really begins to develop once this happens. In this phase, fees per block as a simple metric become much more indicative.
 
-To demonstrate this effect, we can take a look at several years on bitcoin that a fluctuated betweens months of Blockspace Abundance and Scarcity. We'll overlay fees per block along with unused blockspace:
+To demonstrate this effect, we can take a look at several years on bitcoin that a fluctuated betweens months of Blockspace Abundance and Scarcity. We'll look at fees per block along with the various phases marked:
 
 The effect is quite noticeable.
+
+But this begs the question - during Blockspace Abundance, what **can** we measure?
+
+At this point, unused blockspace is a much more indicative metric of progress than fees per block - the more it moves toward zero, the closer we get to reaching Blockspace Scarcity.
 
 Now, if we take a look at our imaginary bitcoin-like coin, we might expect a slightly different pattern to mark the path to blockspace nirvana:
 
@@ -53,9 +55,14 @@ With that in mind, let's look at bitcoin's full history history, this time with 
 
 [graph as described]
 
-Things are looking at bit more optimistic.
+Things are looking at bit more optimistic!
+
+But things are still a pretty long way away from a steady smooth trajectory.
+
+Perhaps it's time to take a closer look at those apparent steps backward when unused blockspace suddenly increased again.
 
 
+## Economic Density
 
 
 ## Notes
