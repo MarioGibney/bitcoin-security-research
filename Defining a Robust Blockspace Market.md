@@ -30,13 +30,17 @@ There are at least 2 necessary properties:
 
 As the block reward decreases, the network becomes more and more cheap to attack, which would interrupt normal operations.
 
-There presumably exists a certain threshold of total fees over time that must be cleared for the Blockspace Market to qualify as Robust.
+There presumably exists a certain threshold of total fees over time that must be cleared for the blockspace market to qualify as robust.
+
+At the time of writing, there is not a firm enough understanding of bitcoin's security model to confidently estimate what this threshold is, outside of a very wide range.
 
 ### Stability
 
 The block subsidy has perfect stability between halvenings. This means that while fees constitue a negligible portion of the block reward, the block reward stays relatively consistent block to block. In a subsidy-negligible scenario, it can be assumed that there would be greater variance in total available block reward between each block. (Even if blockspace demand stayed perfectly consistent, the poisson distribution of blocktimes would result in block reward variance.)
 
 There presumably exists certain levels of Blockspace Demand volatility that would interrupt normal functioning of bitcoin, which implies some theoretical minimum threshold needed.
+
+At the time of writing, there is not a firm enough understanding of bitcoin's security model to confidently estimate what this threshold is, outside of a very wide range.
 
 
 ## Further Research
