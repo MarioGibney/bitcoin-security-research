@@ -41,11 +41,11 @@ In full, we are interested in knowing:
 
 AI(blockspace value) + AI(BTC asset value) : (1-p(postAttackPrice)) * commitment + MC - p(postAttackPrice) * (MEV + MR)
 
-While bitcoin is in blockspace scarcity, as blockspace value increases, EC(attack mining) increases proportionally through fees increasing MR.
+While bitcoin is in blockspace scarcity, as blockspace value increases, EC(attack mining) increases proportionally through fees increasing MR and commitment.
 
-At present, as BTC asset value increases, EC(attack mining) increases proportionally through the block subsidy increasing MR.
+At present, as BTC asset value increases, EC(attack mining) increases proportionally through the block subsidy increasing MR and commitment.
 
-Due to bitcoin's declining subsidy, however, increases in BTC asset value have a negligible direct impact on EC(attack mining) beyond a certain time frame.
+Due to bitcoin's gradual disappearance of the block subsidy, however, increases in BTC asset value have a negligible direct impact on EC(attack mining) beyond a certain time frame.
 
 This suggests that in the future, _there will exist a threshold of BTC asset value >>> blockspace value such that AI(total) > EC(attack mining)_.
 
