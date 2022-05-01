@@ -29,7 +29,7 @@ Consider an individual using bitcoin as a store of value by keeping a large amou
 
 Now consider an individual that uses a payment channel to make many frequent small payments, and regularly rebalances the channel with on-chain transactions. This is an example of a use case with a low BTC:Blockspace ratio. Relative to the quantity of BTC that is needed, the usecase produces a large amount of demand for blockspace.
 
-It should be clear that both BTC the asset and blockspace produce economic value in slightly different ways, and as such the incentive to disrupt will be slightly different. Both must be considered when analyzing risk of an attack against bitcoin:
+It should be clear that both BTC the asset and blockspace produce economic value in slightly different ways, and as such the incentive to disrupt will be slightly different. The value of each must be considered when analyzing risk of an attack against bitcoin:
 
 AI(total) = AI(blockspace value) + AI(BTC asset value)
 
