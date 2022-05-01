@@ -27,6 +27,9 @@ I'll be grateful to anyone who directs me to relevant research not already menti
 
 [On the Instability of Bitcoin Without the Block Reward](https://www.cs.princeton.edu/~arvindn/publications/mining_CCS.pdf) - Miles Carlsten, Harry Kalodner, S. Matthew Weinberg, Arvind Narayanan
 
+[Breaking Down the Fee Market EIP 1559](https://blog.bitmex.com/breaking-down-the-fee-market-eip-1559/) Bitmex Research
+
+
 ## Lectures
 
 [10 years of Bitcoin: Evaluating its Performance as a Monetary System](https://youtu.be/AyOyNF-bCkA) - Nic Carter
