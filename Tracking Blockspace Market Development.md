@@ -4,7 +4,7 @@
 
 It remains an open question in bitcoin whether a [Robust Blockspace Market](https://github.com/MarioGibney/bitcoin-security-research/blob/main/Defining%20a%20Robust%20Blockspace%20Market.md) will develop in the coming decades to compensate for the declining block subsidy. A key property of such a robust blockspace market is size, as measured in fees (in satoshis) per block.
 
-Here I make the case that _fees per block_ is not a sufficient metric for measuring this progress, at bitcoin's current phase of development. Rather, _unused blockspace_ and _economic density_ provide more meaningful data at present due to an abundance of unused blockspace. Only after blocks are consistently full does _fees per block_ again become a reliable single metric.
+Here I make the case that _fees per block_ alone is not a sufficient metric for measuring this progress at bitcoin's current phase of development. Rather, _unused blockspace_ and _economic density_ provide more meaningful data at present due to an abundance of unused blockspace. Only after blocks are consistently full does _fees per block_ again become a reliable single metric.
 
 
 ## The Road to Robust
