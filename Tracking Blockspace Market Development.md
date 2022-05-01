@@ -9,7 +9,7 @@ Here I make the case that _fees per block_ alone is not a sufficient metric for 
 
 ## The Road to Robust
 
-Imagine a bitcoin-like cryptocurrency starting from effectively zero blockspace demand and, after a very steady and consistent rise in demand, reaching the desired state of blockspace demand (in fees per block), one might expect it to look like this:
+Imagine a bitcoin-like cryptocurrency starting from effectively zero blockspace demand and, after a very steady and consistent rise in demand, reaching the desired state of blockspace demand, as measured in fees per block. One might expect it to look like this:
 
 [linear graph]
 
