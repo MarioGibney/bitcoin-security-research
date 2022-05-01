@@ -10,7 +10,7 @@ If AI(total) > EC(attack mining), we can expect bitcoin to be attacked.
 
 EC(attack mining) = (1-p(postAttackPrice)) * commitment + MC - p(postAttackPrice) * (MEV + MR) 
 
-Bitcoin as a system provides two related but distinct goods from which its economic value is derived:
+The bitcoin network provides two related but distinct goods from which its economic value is derived:
 
 1. BTC - the unit of currency: used as a store of value, medium of exchange, unit of account, etc
 2. Blockspace - the ability to write to the blockchain: used as a payments network, settlement layer, immutable ledger, timestamping service, etc
