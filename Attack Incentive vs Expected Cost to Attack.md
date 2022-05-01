@@ -27,9 +27,9 @@ We can call this proportion the BTC:Blockspace ratio.
 
 Consider an individual using bitcoin as a store of value by keeping a large amount of bitcoin in a single UTXO and only transfering bitcoin out of it once every few years. This is a usecase with a high BTC:Blockspace ratio, because the demand for BTC is ongoing, but there is only occasional, limited demand for blockspace.
 
-Now considering an individual that uses a payment channel to make many frequent small payments, and regularly rebalances the channel with on-chain transactions. This is an example of a use case with a low BTC:Blockspace ratio. Relative to the quantity of BTC that is needed, the usecase produces a large amount of demand for blockspace.
+Now consider an individual that uses a payment channel to make many frequent small payments, and regularly rebalances the channel with on-chain transactions. This is an example of a use case with a low BTC:Blockspace ratio. Relative to the quantity of BTC that is needed, the usecase produces a large amount of demand for blockspace.
 
-Both BTC the asset and blockspace produce economic value in slightly different ways, and as such the incentive to disrupt will be slightly different. Both must be considered when analyzing risk of an attack against bitcoin:
+It should be clear that both BTC the asset and blockspace produce economic value in slightly different ways, and as such the incentive to disrupt will be slightly different. Both must be considered when analyzing risk of an attack against bitcoin:
 
 AI(total) = AI(blockspace value) + AI(BTC asset value)
 
