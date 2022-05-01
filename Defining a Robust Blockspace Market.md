@@ -52,4 +52,4 @@ There may also be additional properties that are needed or beneficial for a Bloc
 
 The Blockspace Market is often erroneously referred to as a "Fee Market".
 
-This is a misnomer, as there is no 'market' for 'fees'. The good in demand is blockspace, and fees are simply the payment mechanism that consumers use to signal demand and pay for the blockspace.
+This is a misnomer, as there is no market for fees. The good in demand is blockspace, and fees are simply the payment mechanism that consumers use to signal demand and pay for the blockspace.
