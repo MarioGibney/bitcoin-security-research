@@ -33,7 +33,11 @@ It should be clear that both BTC the asset and blockspace produce economic value
 
 AI(total) = AI(blockspace value) + AI(BTC asset value)
 
+As a reminder:
+
 EC(attack mining) = (1-p(postAttackPrice)) * commitment + MC - p(postAttackPrice) * (MEV + MR) 
+
+In full, we are interested in knowing:
 
 AI(blockspace value) + AI(BTC asset value) : (1-p(postAttackPrice)) * commitment + MC - p(postAttackPrice) * (MEV + MR)
 
@@ -46,4 +50,3 @@ Due to bitcoin's declining subsidy, however, increases in BTC asset value have a
 This suggests that in the future, _there will exist a threshold of BTC asset value >>> blockspace value such that AI(total) > EC(attack mining)_.
 
 Alternately stated, a key factor in forming our expectation of future mining attacks against bitcoin is to what degree BTC asset value decouples from blockspace value.
-
