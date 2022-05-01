@@ -34,4 +34,4 @@ I'll be grateful to anyone who directs me to relevant research not already menti
 
 https://twitter.com/fnietom/status/1457304328000126981?s=20&t=dik2ApdlGFau_y9wjUBarA
 
-
+on reducing blockspace demand volatility: https://twitter.com/Mario_Gibney/status/1520644736133988353?s=20&t=IZFIzjcxDpd9ZRf62EDpAw
