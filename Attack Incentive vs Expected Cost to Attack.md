@@ -8,8 +8,6 @@ If AI(total) < EC(attack mining), we can expect bitcoin not to be attacked.
 
 If AI(total) > EC(attack mining), we can expect bitcoin to be attacked.
 
-EC(attack mining) = (1-p(postAttackPrice)) * commitment + MC - p(postAttackPrice) * (MEV + MR) 
-
 The bitcoin network provides two related but distinct goods from which its economic value is derived:
 
 1. BTC - the unit of currency: used as a store of value, medium of exchange, unit of account, etc
