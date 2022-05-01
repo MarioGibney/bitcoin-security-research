@@ -4,6 +4,8 @@ Other files in this repository are my own research related to the topic, and lin
 
 I'll be grateful to anyone who directs me to relevant research not already mentioned here.
 
+(I haven't read all of this stuff yet, so do not mistake inclusion here as a signal that the work is correct or of good quality.)
+
 
 ## Writing
 
