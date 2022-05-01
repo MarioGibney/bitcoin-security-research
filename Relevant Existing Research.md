@@ -25,6 +25,8 @@ I'll be grateful to anyone who directs me to relevant research not already menti
 
 [Bitcoin Address Re-use Statistics](https://blog.bitmex.com/bitcoin-address-re-use-statistics/) - Bitmex Research
 
+[On the Instability of Bitcoin Without the Block Reward](https://www.cs.princeton.edu/~arvindn/publications/mining_CCS.pdf) - Miles Carlsten, Harry Kalodner, S. Matthew Weinberg, Arvind Narayanan
+
 ## Lectures
 
 [10 years of Bitcoin: Evaluating its Performance as a Monetary System](https://youtu.be/AyOyNF-bCkA) - Nic Carter
