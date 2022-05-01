@@ -33,7 +33,7 @@ The first phase is the period when blocks are **not** consistently full (Blocksp
 
 ### Blockspace Abundance
 
-During Blockspace Abundance (the phase we are in now), unused blockspace remains greater than zero, since blockspace can be easily claimed for the minimum fee of 1 sat/vbyte. No economically rational consumer of blockspace can be expected to pay more than that minimum, regardless of how much they value the blockspace, so it cannot be expected for fees to rise meaningfully at all.
+During Blockspace Abundance (the phase we are in now), unused blockspace remains greater than zero, and blockspace can be quickly claimed for the minimum fee of 1 sat/vbyte. No economically rational consumer of blockspace can be expected to pay more than that minimum, regardless of how much they value the blockspace, so it cannot be expected for fees to rise meaningfully at all.
 
 At this point, unused blockspace is a much more indicative metric of progress than fees per block - the more it moves toward zero, the closer we get to reaching Blockspace Scarcity.
 
