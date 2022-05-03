@@ -19,57 +19,64 @@ If comparing the expectation to bitcoin's fees per block in the past ___ years, 
 
 Over the past several years, average fees per block has not been increasing on bitcoin.
 
-Is this cause for concern? It might be! If progress had indeed stalled, this is what we would expect to see. But might there be another explanation?
+Is this cause for concern? It might be! If blockspace demand has indeed stagnated, this is what we would expect to see. But might there be another explanation?
 
 To answer that question, we must consider the limited nature of blockspace supply.
 
 
-## Blockspace Abundancy vs Scarcity
+## Blockspace Supply
 
-The development of a robust blockspace market can be divided into two phases.
+The blockspace market can be divided into two conditions.
 
-The first phase is the period when blocks are **not** consistently full (Blockspace Abundance), and the second phase is when blocks **are** consistently full (Blockspace Scarcity).
+The first condition is the when blocks are **not** consistently full - we'll call this Blockspace Abundance. The other possible condition is when blocks **are** consistently full - Blockspace Scarcity.
 
 
 ### Blockspace Abundance
 
-During Blockspace Abundance (the phase we are in now), unused blockspace remains greater than zero, and blockspace can be quickly claimed for the minimum fee of 1 sat/vbyte. No economically rational consumer of blockspace can be expected to pay more than that minimum, regardless of how much they value the blockspace, so it cannot be expected for fees to rise meaningfully at all.
+During Blockspace Abundance, unused blockspace remains greater than zero, and blockspace can be quickly claimed for the minimum fee of 1 sat/vbyte. Economically rational consumers of blockspace can be expected to pay that minimum or close to it, except for highly time-sensitive transaction. Since most transactional activity does not urgently need inclusion in the next block, it cannot be expected for fees to rise meaningfully at all during periods of Blockspace Abundance.
 
 ### Blockspace Scarcity
 
-During Blockspace Scarcity, the situation changes dramatically. One cannot simply broadcast a transaction at the minimum fee and patiently wait for confirmation. Instead, all potential users of blockspace must compete by bidding, regardless of how patient they are. In a certain sense, the blockspace market only really begins to develop once this happens. In this phase, fees per block as a simple metric become much more indicative.
+During Blockspace Scarcity, the situation changes dramatically. One cannot simply broadcast a transaction at the minimum fee and patiently wait for confirmation. Instead, all potential users of blockspace must compete by bidding, regardless of how patient they are. In a certain sense, the blockspace market only really begins to develop once this happens. In this phase, fees per block as a simple metric becomes much more indicative.
 
-To demonstrate this effect, we can take a look at several years on bitcoin that a fluctuated betweens months of Blockspace Abundance and Scarcity. We'll look at fees per block along with the various phases marked:
 
-The effect is quite noticeable.
+Now we should understand the two conditions and why fees per block won't be useful during Blockspace Abundance. Instead, what **can** we measure?
 
-But this begs the question - during Blockspace Abundance, what **can** we measure?
-
-At this point, unused blockspace is a much more indicative metric of progress than fees per block - the more it moves toward zero, the closer we get to reaching Blockspace Scarcity.
+The answer should be obvious: block weight. The more block weight moves toward the maximum of 4 MWU, the closer bitcoin is to reaching Blockspace Scarcity.
 
 Now, if we take a look at our imaginary bitcoin-like coin, we might expect a slightly different pattern to mark the path to blockspace nirvana:
 
-[graph with flat line during abundance, sharp linear line once in scarcity]
+[generic graph with flat line during abundance, sharp linear line once in scarcity, with period of full blocks shaded in grey]
 
-With that in mind, let's look at bitcoin's full history history, this time with both fees per block and unused blockspace:
+Let's see if bitcoin's real data matches it:
 
-[graph as described]
+[graph showing blockweight and fees per block, with period of full blocks shaded in grey]
 
-Things are looking at bit more optimistic!
+Things are looking at bit more optimistic! Blocks are becoming more frequently full over time, and periods of Blockspace Abundance are getting shorter.
 
-But things are still a pretty long way away from a steady smooth trajectory.
-
-Perhaps it's time to take a closer look at those apparent steps backward when unused blockspace suddenly increased again.
+But things are still a pretty long way away from a steady smooth trajectory. In fact, in the last few years, fees seem to still be _decreasing_ despite more frequently full blocks. What gives?
 
 
-## Economic Density
+## Blockspace Efficiency
+
+As we saw in the last section, when blocks fill up, the immediate short term effect is for fees to spike. But in the past few years, the fee spikes have been getting less pronounced.
+
+At this point we have to consider the efficiency of blockspace usage, and how it is affected by various techonological developments.
+
+During periods of Blockspace Abundance, blockspace costs virtually nothing, so there is little incentive to use it efficiently.
+
+Once Blockspace Scarcity hits, there is a strong incentive to use the minimum block weight necessary.
+
+There are a variety of well-known methods that can be used to fit the same transactional activity into less blockweight. Two prime examples are using Segregated Witmess (SegWit) inputs and Transaction Batching.
+
+When using SegWit, some transaction input data called the witness data is separated out, and is only 'weighted' at one quarter the non-witness data. In other words, a transaction with more SegWit inputs uses up less block weight than an equivalent transaction with fewer or no SegWit inputs.
+
+In real terms, that means that the more SegWit usage there is, the less block weight is required for the same economic activity.
+
+Transaction Batching is when a single entity pays out several recipients using a single transaction with multiple outputs instead of creating individual transactions for each payment. This reduces the total block weight needed per transaction by reducing
 
 
-## Notes
-### A Fuzzy Line
 
-The distinction between periods of Blockspace Abundance and Scarcity may not be very clean. There have been (and may be more) periods that switched between the two phases if you look at data by the month. But considering that the longest periods of Blockspace Scarcity have been no more than a few months [add specific data], when viewing the subject from a long (multi-decade) timeframe, it is safe to say that we are still under Blockspace Abundance.
 
-Assuming a robust blockspace market does eventually form, it remains plausible that there will be a long intermediate phase of switching back and forth between Blockspace Abundance and Scarcity with gradually lengthening periods of full blocks before Blockspace Scarcity becomes the permanent norm. Also plausible is that some phenomenon triggers a swift uptick in blockspace demand at the right time and that the transition occurs very quickly and cleanly.
 
-In any case, the more one zooms out and look at longer term trends, the less obfuscating a potentially fuzzy transitionary period will be.
+
