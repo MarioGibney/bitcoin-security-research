@@ -33,6 +33,8 @@ I'll be grateful to anyone who directs me to relevant research not already menti
 
 [Flaws in Ethereum's EIP 1559](https://medium.com/iovlabs-innovation-stories/flaws-in-ethereums-eip-1559-c0f91838ce23) - Sergio Demian Lerner
 
+[Achim Warner's Medium](https://achimwarner.medium.com/) - Achim Warner
+
 
 ## Lectures
 
