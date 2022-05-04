@@ -33,7 +33,7 @@ The first condition is the when blocks are **not** consistently full - we'll cal
 
 ### Blockspace Abundance
 
-During Blockspace Abundance, unused blockspace remains greater than zero, and blockspace can be quickly claimed for the minimum fee of 1 sat/vbyte. Economically rational consumers of blockspace can be expected to pay that minimum or close to it, except for highly time-sensitive transaction. Since most transactional activity does not urgently need inclusion in the next block, it cannot be expected for fees to rise meaningfully at all during periods of Blockspace Abundance.
+During Blockspace Abundance, unused blockspace remains greater than zero, and blockspace can be quickly claimed for the minimum fee of 1 sat/vbyte. Economically rational consumers of blockspace can be expected to pay that minimum or close to it, barring only the most highly time-sensitive transactions. Since most transactional activity does not urgently need inclusion in the next block or two, it cannot be expected for fees to rise meaningfully at all during periods of Blockspace Abundance.
 
 ### Blockspace Scarcity
 
