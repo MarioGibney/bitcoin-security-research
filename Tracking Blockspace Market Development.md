@@ -4,7 +4,7 @@
 
 It remains an open question in bitcoin whether a [Robust Blockspace Market](https://github.com/MarioGibney/bitcoin-security-research/blob/main/Defining%20a%20Robust%20Blockspace%20Market.md) will develop in the coming decades to compensate for the declining block subsidy. A key property of such a robust blockspace market is size, as measured in fees (in satoshis) per block.
 
-Here I make the case that _fees per block_ alone is not a sufficient metric for measuring this progress at bitcoin's current phase of development. Rather, _unused blockspace_ and _economic density_ provide more meaningful data at present due to an abundance of unused blockspace. Only after blocks are consistently full does _fees per block_ again become a reliable single metric.
+Here I make the case that _fees per block_ alone is not a sufficient metric for measuring this progress at bitcoin's current phase of development. Rather, _block weight_ and _economic density_ provide more meaningful data at present due to an abundance of unused blockspace. Only after blocks are consistently full does _fees per block_ again become a reliable single metric.
 
 
 ## The Road to Robust
@@ -26,7 +26,7 @@ To answer that question, we must consider the limited nature of blockspace suppl
 
 ## Blockspace Supply
 
-The blockspace market can be divided into two conditions.
+We can think of the supply of blockspace as being in one of two conditions.
 
 The first condition is the when blocks are **not** consistently full - we'll call this Blockspace Abundance. The other possible condition is when blocks **are** consistently full - Blockspace Scarcity.
 
@@ -61,22 +61,69 @@ But things are still a pretty long way away from a steady smooth trajectory. In 
 
 As we saw in the last section, when blocks fill up, the immediate short term effect is for fees to spike. But in the past few years, the fee spikes have been getting less pronounced.
 
-At this point we have to consider the efficiency of blockspace usage, and how it is affected by various techonological developments.
+At this point we have to consider the efficiency of blockspace usage, and how it is affected by various technological developments.
 
 During periods of Blockspace Abundance, blockspace costs virtually nothing, so there is little incentive to use it efficiently.
 
 Once Blockspace Scarcity hits, there is a strong incentive to use the minimum block weight necessary.
 
-There are a variety of well-known methods that can be used to fit the same transactional activity into less blockweight. Two prime examples are using Segregated Witmess (SegWit) inputs and Transaction Batching.
+This means that as growing blockspace demand drives a transition from Blockspace Abundance to Scarcity, there might be a period where both blockweight and transaction fees may remain flat, as growing demand flows into more efficient blockspace usage instead.
+
+In order to observe this phenomenon, we'll need a way to track the efficiency of blockspace usage.
+
+This is a trickier concept to quantify, as there is no simple clean measure.
+
+At first, it may be tempting to use value moved per block, measured in BTC or dollars. However, this approach has a few challenges.
+
+1. Change outputs, and the difficulty in identifying them, make it tough to accurately guage how much BTC in a block's outputs are actually 'moving'. There are ways to estimate this, but they are imprecise.
+2. The amount of BTC (or dollars) moved does not necessarily reflect how much demand that output has for the blockspace consumed. For example, compared a transaction processing a one-time $100 payment with a transaction opening up a lightning channel with $50 in it. Because the lightning channel opening can enable hundreds of payments, it may actually reflect higher economic efficiency (and therefore blockspace demand) than the one-time $100 payment.
+
+For these two reasons, we'll look for another way to measure blockspace efficiency. To do so, let's consider some known techniques that can be (and are being) used to get more value out of the same amount of blockspace. Three prime examples are using Segregated Witmess (SegWit) and Transaction Batching.
+
+### SegWit & Taproot
 
 When using SegWit, some transaction input data called the witness data is separated out, and is only 'weighted' at one quarter the non-witness data. In other words, a transaction with more SegWit inputs uses up less block weight than an equivalent transaction with fewer or no SegWit inputs.
 
 In real terms, that means that the more SegWit usage there is, the less block weight is required for the same economic activity.
 
-Transaction Batching is when a single entity pays out several recipients using a single transaction with multiple outputs instead of creating individual transactions for each payment. This reduces the total block weight needed per transaction by reducing
+Taproot, which benefits from SegWit's adjusted weighting, can offer further improvements. For single-signature transactions, there is a modest net reduction in the total number of bytes compared to other address types. This modest net reduction becomes quite substantive when it comes to multisig transactions (thanks to key aggregation) and for more complex scripts in general (by hiding unused script paths behind hashes).
+
+Both of these efficiency gains can be measured using the simple metric of outputs/blockweight. This has the benefit of also capturing any other improvements that allow more activity to be packed into less blockweight.
+
+[chart showing outputs/blockweight average over time]
+
+As we can see, the gradual adoption of SegWit has corresponded with a marked increase in outputs/blockweight.
+
+Taproot, which is still rarely used, has not had a meaningful impact to date. But because of its potential for savings on fees, we can expect growing taproot usage in the coming years to further increase outputs/blockweight.
+
+
+### Transaction Batching
+
+Transaction Batching is when a single entity pays out several recipients using a single transaction with multiple outputs instead of creating individual transactions for each payment. In most circumstances, each transaction will generate a change output for the sender.
+
+By batching X number of transactions together, the sender reduces the number of change outputs generated from X to 1.
+
+This efficiency gain can be measured using the metric outputs/transaction. The more outputs there are on average, the fewer of them are likely to be change outputs, representing a genuine increase in blockspace efficiency. Again, this will capture other efficiency improvements that might reduce the need for change outputs.
+
+[chart showing outputs/transaction over time]
 
 
 
+## Weaknesses and Further Research
+
+While we believe these metrics provide a much more holistic and indicative view into the development of bitcoin's blockspace market, there are some (at least somewhat) plausible scenarios in which data from our approach would be misleading, at least temporarily.
 
 
+One scenario would the adoption of some sort of blockspace usecase that required transactions with single, data-heavy outputs. If this usecase were a substitute good for other blockspace uses (for example, by being an anchor for some sort of advanced L2 protocol), then its adoption might result in falling blockweight, outputs/blockweight, and outputs/transaction counts, even if in the long run, such a usecase is providing a more robust source of demand for blockspace.
 
+It is possible that lightning network transactions have already produced this effect to some degree. The lightning network protocol allows for many small BTC payments to made off chain and then aggregated into two on-chain transactions connected by a single 2of2 output.
+
+Fortunately, the recent addition of taproot and its likely widespread adoption make this kind of scenario less likely, by greatly reducing the differences in input/output sizes, even of varying use cases.
+
+
+Contrarily, there are potential situations of demand reduction that might look like increases. If some competing service or blockchain is continually capturing higher value transactions on bitcoin while bitcoin's blockspace is being steadily consumed by usage reflecting highly elastic and price-sensitive demand, then all our metrics might be increasing before they stall out at level where blocks are full, output count is high, but fees fail to grow beyond a modest level.
+
+
+One open area of research is into blockspace demand elasticity. The steady, unchanging supply of 4 MWU per block makes this more difficult to study  than in most goods. However, there may be useful information gleaned from examining period of faster and slower block production.
+
+Additionally, while they do not enjoy widespread popular support, various proposals of blocksize changes (including a temporary, several-year decrease) would represent an opportunity to examine this question further.
