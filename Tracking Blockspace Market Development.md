@@ -37,7 +37,7 @@ During Blockspace Abundance, unused blockspace remains greater than zero, and bl
 
 ### Blockspace Scarcity
 
-During Blockspace Scarcity, the situation changes dramatically. One cannot simply broadcast a transaction at the minimum fee and patiently wait for confirmation. Instead, all potential users of blockspace must compete by bidding, regardless of how patient they are. In a certain sense, the blockspace market only really begins to develop once this happens. In this phase, fees per block as a simple metric becomes much more indicative.
+During Blockspace Scarcity, when blocks are consistently full, the situation changes dramatically. One cannot simply broadcast a transaction at the minimum fee and patiently wait for confirmation. Instead, all potential users of blockspace must compete by bidding, regardless of how patient they are. In a certain sense, the blockspace market only really begins to develop once this happens. In this phase, fees per block as a simple metric becomes much more indicative.
 
 
 Now we should understand the two conditions and why fees per block won't be useful during Blockspace Abundance. Instead, what **can** we measure?
