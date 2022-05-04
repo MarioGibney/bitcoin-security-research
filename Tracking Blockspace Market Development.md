@@ -11,13 +11,14 @@ Here we make the case that _fees per block_ alone is not a sufficient metric for
 
 Imagine a bitcoin-like cryptocurrency starting from effectively zero blockspace demand and, after a very steady and consistent rise, reaching the desired state of blockspace demand, as measured in fees per block. One might expect it to look like this:
 
-[linear graph]
+<img width="873" alt="image" src="https://user-images.githubusercontent.com/22239865/166838925-6fa9d157-a91c-4bac-a348-c1507d94ac89.png">
+(black line Y axis = fees per block)
 
 If we compare this expectation to bitcoin's fees per block, one might initially be worried:
 
-[bitcoin fees per block]
+[graph of real data, bitcoin fees per block]
 
-It seems that fees have plateaued, even slightly decreased in the past few years.
+It seems that fees have plateaued, and even slightly decreased in the past few years.
 
 Is this cause for concern? It might be! If blockspace demand has indeed stagnated, this is what we would expect to see. But might there be another explanation?
 
@@ -26,7 +27,9 @@ To answer that question, let us consider the limited nature of blockspace supply
 
 ## Blockspace Supply
 
-We can think of blockspace supply as being in one of two conditions.
+The supply of blockspace is steady, at a constant rate of 4 MWU every ~10 on average.
+
+Relative to demand, we can think of being in one of two conditions at any given time.
 
 The first condition is the when blocks are **not** consistently full - we'll call this Blockspace Abundance. The other possible condition is when blocks **are** consistently full - Blockspace Scarcity.
 
@@ -46,11 +49,12 @@ The answer should be obvious: block weight. The more block weight moves toward t
 
 Now, if we take a look at our imaginary bitcoin-like coin, we might expect a slightly different pattern to mark the path to blockspace nirvana:
 
-[generic graph with flat line during abundance, sharp linear line once in scarcity, with period of full blocks shaded in grey]
+<img width="1413" alt="image" src="https://user-images.githubusercontent.com/22239865/166840387-9bc9ab63-75e3-4296-83d1-71644a79446d.png">
+(blue = blockweight, red = fees per block, white area marked as blockspace abundance, grey area marked as blockspace scarcity)
 
 Let's see if bitcoin's real data matches it:
 
-[graph showing blockweight and fees per block, with period of full blocks shaded in grey]
+[graph of real bitcoin data showing blockweight and fees per block, with grey shading for blockspace scarcity, same as last graph]
 
 Things are looking at bit more optimistic! Blocks are becoming more frequently full over time, and periods of Blockspace Abundance are getting shorter.
 
@@ -69,7 +73,8 @@ Once Blockspace Scarcity hits, there is a strong incentive to use the minimum bl
 
 This means that as growing blockspace demand drives a change from Blockspace Abundance to Scarcity, there might be a transitionary period where both blockweight and transaction fees may remain flat, as growing demand flows into more efficient blockspace usage instead.
 
-[graph with three metric - increasing blockspace that reaches max after 1/3 of the chart, then blockspace efficiency which is flat for the first 1/3, moves upward for the second 1/3, and then stays maxed for the final third, and then fees per block, which stays flat until the 2/3 point, and then increases to max]
+<img width="1455" alt="image" src="https://user-images.githubusercontent.com/22239865/166841113-ddab1929-2d43-4a15-a3ee-29bd7de90c13.png">
+(blue = blockweight, green = blockspace efficincy, red = fees per block, white area marked as blockspace abundance, grey area marked as blockspace scarcity)
 
 In order to observe this phenomenon in bitcoin, we'd need to define and measure blockspace efficiency.
 
@@ -90,13 +95,13 @@ In real terms, that means that the more SegWit usage there is, the less block we
 
 Taproot, which benefits from SegWit's adjusted weighting, can offer further improvements. For single-signature transactions, there is a modest net reduction in the total data compared to other address types. This reduction is quite substantive when it comes to multisig transactions (thanks to key aggregation) and for more complex scripts in general (by replacing unused script paths with hashes).
 
-Both of these efficiency gains can be measured using the simple metric of outputs/blockweight. This has the benefit of also capturing any other improvements that allow more activity to be packed into less space.
+Both of these efficiency gains can be measured using the simple metric of outputs/blockweight. This has the benefit of also capturing any other improvements that allow more activity to be packed into less space, such as [???].
 
-[chart showing outputs/blockweight average over time]
+[graph of real data showing outputs/blockweight average over time, overlayed with segwit usage]
 
 As we can see, the gradual adoption of SegWit has corresponded with a marked increase in outputs/blockweight.
 
-Taproot, which is still rarely used, has not had a meaningful impact to date. But because of its potential for savings on fees, we can expect growing taproot usage in the coming years to further increase outputs/blockweight, such as [???].
+Taproot, which is still rarely used, has not had a meaningful impact to date. But because of its potential for savings on fees, we can expect growing taproot usage in the coming years to further increase outputs/blockweight.
 
 
 ### Transaction Batching
@@ -107,7 +112,7 @@ In most circumstances, each transaction will generate a change output for the se
 
 This efficiency gain can be measured using the metric outputs/transaction. The more outputs there are on average, the fewer of them are likely to be change outputs, representing a genuine increase in blockspace efficiency. Again, this will capture other efficiency improvements that might reduce the need for change outputs, such as more advanced coin selection in wallets.
 
-[chart showing outputs/transaction over time]
+[graph of real data showing outputs/transaction over time, overlaid with batching adoption]
 
 These two metrics are useful since they are cleanly measureable, and reflect more or less strict improvements in usage. That is, the inputs used can perform the same functions they were before SegWit/batching/taproot, they just use less blockweight, and many unnecessary inputs/outputs are eliminated.
 
@@ -121,9 +126,11 @@ These two metrics are useful since they are cleanly measureable, and reflect mor
 
 While we believe these metrics provide a much more holistic and indicative view into the development of bitcoin's blockspace market, there are some (at least somewhat) plausible scenarios in which data from our approach would be misleading, at least temporarily.
 
-The most significant area for improvement on this framework would be a more precise measurement of _blockspace efficiency_. _Outputs/blockweight_ and _outputs/transaction_ can only capture part of the picture. In particular, taproot's effect of making outputs more uniform (in appearance and size) leaves open a future scenario where some new technique results in blockspace being used more efficiently (and thereby capturing growing demand), but where it is not reflected in any of the metrics we outline here.
+The most significant area for improvement on this framework would be a more complete measurement of _blockspace efficiency_. _Outputs/blockweight_ and _outputs/transaction_ can only capture part of the picture. In particular, taproot's effect of making outputs more uniform (in both appearance and size) leaves open a future scenario where some new technique results in blockspace being used more efficiently and thereby capturing growing demand that is not reflected in any of the metrics we outline here.
 
 
-Another open area of research is into blockspace demand elasticity. The steady, unchanging supply of 4 MWU per block makes this property more difficult to study than in most goods. However, there may be useful information gleaned from examining period of faster and slower block production.
+Another open area of research is into blockspace demand elasticity. The steady, unchanging supply of 4 MWU per block makes this property more difficult to study than in most goods.
 
-Additionally, while they do not enjoy widespread popular support, various proposals of blocksize changes (including a temporary, several-year decrease) would represent an opportunity to examine this question further.
+However, there may be useful information gleaned from examining period of faster and slower block production that can hint at demand elasticity.
+
+Additionally, while they do not enjoy widespread popular support, various existing proposals of blocksize increases or decreases, if deployed, would represent an opportunity to examine this question further.
