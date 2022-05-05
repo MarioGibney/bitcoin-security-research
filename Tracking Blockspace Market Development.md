@@ -80,7 +80,7 @@ In order to observe this phenomenon in bitcoin, we'd need to define and measure 
 
 This is a trickier concept to quantify.
 
-At first, it may be tempting to use value moved per block, measured in BTC or dollars. However, there are some problems using it as a proxy for blockspace demand.
+At first, it may be tempting to use value moved per block, measured in BTC or dollars. However, there are some problems using it as a proxy for blockspace efficiency.
 
 1. Change outputs, and the difficulty in identifying them, make it tough to accurately guage how much BTC in a block's outputs are actually 'moving'. There are ways to estimate this, but they are imprecise.
 2. The amount of BTC (or dollars) moved does not necessarily reflect how much demand that output has for the blockspace consumed. For example, compared a transaction processing a one-time $100 payment with a transaction opening up a lightning channel with $50 in it. Because the lightning channel opening can enable hundreds of payments, it may actually reflect higher economic efficiency (and therefore blockspace demand) than the one-time $100 payment.
