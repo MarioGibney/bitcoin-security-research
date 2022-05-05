@@ -83,38 +83,36 @@ This is a trickier concept to quantify.
 At first, it may be tempting to use value moved per block, measured in BTC or dollars. However, there are some problems using it as a proxy for blockspace efficiency.
 
 1. Change outputs, and the difficulty in identifying them, make it tough to accurately guage how much BTC in a block's outputs are actually 'moving'. There are ways to estimate this, but they are imprecise.
-2. The amount of BTC (or dollars) moved does not necessarily reflect how much demand that output has for the blockspace consumed. For example, compared a transaction processing a one-time $100 payment with a transaction opening up a lightning channel with $50 in it. Because the lightning channel opening can enable hundreds of payments, it may actually reflect higher economic efficiency (and therefore blockspace demand) than the one-time $100 payment.
+2. The amount of BTC (or dollars) moved does not necessarily reflect how much demand that output has for the blockspace consumed. For example, compare a transaction sending a one-time $100 payment with a transaction opening up a lightning channel with $50 of liquidity. Because the lightning channel can enable hundreds of payments, it may actually reflect higher economic efficiency (and therefore blockspace demand) than the one-time $100 payment. In other words, the opener of the lightning channel may be willing to pay a higher fee rate than the sender of the one-time payment.
 
-For these two reasons, we'll look for another way to measure blockspace efficiency. To do so, let's consider some known techniques that can be (and are being) used to get more value out of the same amount of blockspace. Three prime examples are using Segregated Witmess (SegWit) and Transaction Batching.
+For these two reasons, we'll look for another way to measure blockspace efficiency. To do so, let's consider some known techniques that can be (and are being) used to get more value out of the same amount of blockspace. Three prime examples are using Segregated Witness (SegWit), Taproot, and Transaction Batching.
 
 ### SegWit & Taproot
 
 When using SegWit, some transaction input data called the witness data is separated out, and is only 'weighted' at one quarter the non-witness data. In other words, a transaction with more SegWit inputs uses up less block weight than an equivalent transaction with fewer or no SegWit inputs.
 
-In real terms, that means that the more SegWit usage there is, the less block weight is required for the same economic activity.
-
-Taproot, which benefits from SegWit's adjusted weighting, can offer further improvements. For single-signature transactions, there is a modest net reduction in the total data compared to other address types. This reduction is quite substantive when it comes to multisig transactions (thanks to key aggregation) and for more complex scripts in general (by replacing unused script paths with hashes).
-
-Both of these efficiency gains can be measured using the simple metric of outputs/blockweight. This has the benefit of also capturing any other improvements that allow more activity to be packed into less space, such as [???].
+In real terms, that means that the more SegWit usage there is, the less block weight is required for the same economic activity. This efficiency gain can be measured using the simple metric of outputs/blockweight. As we can see, the gradual adoption of SegWit has corresponded with a marked increase in outputs/blockweight.
 
 [graph of real data showing outputs/blockweight average over time, overlayed with segwit usage]
 
-As we can see, the gradual adoption of SegWit has corresponded with a marked increase in outputs/blockweight.
+This metric has the benefit of also capturing any other improvements that allow more activity to be packed into less space, such as taproot.
+
+Taproot, which also benefits from SegWit's adjusted weighting, can offer further improvements. For single-signature transactions, there is a modest net reduction in the total data compared to other address types. This reduction is quite substantive when it comes to multisig transactions (thanks to key aggregation) and for more complex scripts in general (by replacing unused script paths with hashes).
 
 Taproot, which is still rarely used, has not had a meaningful impact to date. But because of its potential for savings on fees, we can expect growing taproot usage in the coming years to further increase outputs/blockweight.
 
 
 ### Transaction Batching
 
-Transaction Batching is when a single entity pays out several recipients using one transaction with multiple outputs instead of creating individual transactions for each payment.
+Transaction Batching is when a sender pays out several recipients using one transaction with multiple outputs instead of creating individual transactions for each payment.
 
-In most circumstances, each transaction will generate a change output for the sender. By batching X number of transactions together, the sender reduces the number of change outputs generated from X to 1.
+In most circumstances, a transaction generates one change output for the sender. By batching X number of transactions together, the sender reduces the number of change outputs generated from X to 1.
 
-This efficiency gain can be measured using the metric outputs/transaction. The more outputs there are on average, the fewer of them are likely to be change outputs, representing a genuine increase in blockspace efficiency. Again, this will capture other efficiency improvements that might reduce the need for change outputs, such as more advanced coin selection in wallets.
+This efficiency gain can be measured using outputs/transaction. The more outputs/transaction there are on average, the fewer of them are likely to be change outputs, representing a genuine increase in blockspace efficiency. Again, this will capture other efficiency improvements that might reduce the need for change outputs, such as more advanced input selection in wallets.
 
 [graph of real data showing outputs/transaction over time, overlaid with batching adoption]
 
-These two metrics are useful since they are cleanly measureable, and reflect more or less strict improvements in usage. That is, the inputs used can perform the same functions they were before SegWit/batching/taproot, they just use less blockweight, and many unnecessary inputs/outputs are eliminated.
+These two metrics (outputs/blockweight and outputs/transaction) are useful since they are cleanly measureable, and reflect more or less strict improvements in efficiency. The outputs can perform the same functions, they just use less blockweight, and many unnecessary inputs/outputs are eliminated.
 
 
 ## A Complete Picture
