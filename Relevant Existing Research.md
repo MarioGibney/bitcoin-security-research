@@ -35,6 +35,7 @@ I'll be grateful to anyone who directs me to relevant research not already menti
 
 [Achim Warner's Medium](https://achimwarner.medium.com/) - Achim Warner
 
+[Thoughts on fee bumping](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-February/019879.html) - James O'Beirne
 
 ## Lectures
 
