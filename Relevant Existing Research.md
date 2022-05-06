@@ -37,6 +37,7 @@ I'll be grateful to anyone who directs me to relevant research not already menti
 
 [Thoughts on fee bumping](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-February/019879.html) - James O'Beirne
 
+
 ## Lectures
 
 [10 years of Bitcoin: Evaluating its Performance as a Monetary System](https://youtu.be/AyOyNF-bCkA) - Nic Carter
@@ -47,3 +48,9 @@ I'll be grateful to anyone who directs me to relevant research not already menti
 https://twitter.com/fnietom/status/1457304328000126981?s=20&t=dik2ApdlGFau_y9wjUBarA
 
 on reducing blockspace demand volatility: https://twitter.com/Mario_Gibney/status/1520644736133988353?s=20&t=IZFIzjcxDpd9ZRf62EDpAw
+
+
+## Tools
+
+[Transaction Size Calculator](https://bitcoinops.org/en/tools/calc-size/) - Bitcoin Optech
+
