@@ -4,7 +4,9 @@
 
 It remains an open question in bitcoin whether a robust blockspace market will develop in the coming decades to compensate for the declining block subsidy. A key property of such a robust blockspace market is size, as measured in fees (in satoshis) per block.
 
-Here we make the case that _fees per block_ alone is not a sufficient metric for measuring this progress at bitcoin's current phase of development. Rather, _block weight_ as well as _outputs/blockweight_ & _outputs/transaction_ provide more meaningful data at present due to the continued presence of unused blockspace. Only after blocks are consistently full and easy-to-implement efficiency improvements are saturated does _fees per block_ again become a reliable single metric.
+In this paper, we will 
+
+Contrary to popular belief, _fees per block_ alone is not a sufficient metric for measuring this progress at bitcoin's current phase of development. Rather, _block weight_ as well as _outputs/blockweight_ & _outputs/transaction_ can provide more meaningful data at present due to the continued presence of unused blockspace. Only after blocks are consistently full and low-hanging efficiency improvements are saturated does _fees per block_ again become a reliable single metric.
 
 
 ## The Road to Robust
