@@ -37,6 +37,8 @@ I'll be grateful to anyone who directs me to relevant research not already menti
 
 [Thoughts on fee bumping](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-February/019879.html) - James O'Beirne
 
+[Why are Bitcoin Transaction Fees so Low?](https://docsend.com/view/jsgnh3vnssip3uvt) - Alex Thorn
+
 
 ## Lectures
 
