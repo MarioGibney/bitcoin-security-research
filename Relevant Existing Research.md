@@ -39,6 +39,8 @@ I'll be grateful to anyone who directs me to relevant research not already menti
 
 [Why are Bitcoin Transaction Fees so Low?](https://docsend.com/view/jsgnh3vnssip3uvt) - Alex Thorn
 
+[Fee Undercutting Question on Stack Exchange](https://bitcoin.stackexchange.com/questions/67697/can-undercutting-attacks-be-mitigated/86235#86235) - Fernando Nietom
+
 
 ## Lectures
 
