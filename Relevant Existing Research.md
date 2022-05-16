@@ -43,6 +43,9 @@ I'll be grateful to anyone who directs me to relevant research not already menti
 
 [Fee Sniping](https://bitcoinops.org/en/topics/fee-sniping/) - Bitcoin Optech
 
+[Hugo Hanoi's Medium](https://hugonguyen.medium.com/)
+
+
 ## Lectures
 
 [10 years of Bitcoin: Evaluating its Performance as a Monetary System](https://youtu.be/AyOyNF-bCkA) - Nic Carter
