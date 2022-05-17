@@ -47,6 +47,8 @@ I'll be grateful to anyone who directs me to relevant research not already menti
 
 [Fernando Nietom's Github](https://gist.github.com/fernandonm)
 
+[The Bitcoin Block Size Debate](https://bdw.home.blog/2019/08/14/the-bitcoin-block-size-debate/) - Ben de Waal
+
 
 ## Lectures
 
