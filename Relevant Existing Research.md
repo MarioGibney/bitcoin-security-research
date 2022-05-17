@@ -45,6 +45,8 @@ I'll be grateful to anyone who directs me to relevant research not already menti
 
 [Hugo Hanoi's Medium](https://hugonguyen.medium.com/)
 
+[Fernando Nietom's Github](https://gist.github.com/fernandonm)
+
 
 ## Lectures
 
