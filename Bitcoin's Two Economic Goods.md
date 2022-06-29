@@ -1,5 +1,5 @@
 <h1 align="center">Bitcoin’s Two Economic Goods</h1>
-<h4 align="center">Mario Gibney
+<h4 align="center">By Mario Gibney
   
   Originally published June 2022</h5>
 
