@@ -5,7 +5,7 @@
 
 Bitcoin is often thought of as a network with a single good - units of the currency itself.
 
-The better framework is that there are two [private goods](https://www.investopedia.com/terms/p/private-good.asp) produced by the bitcoin network, the second being blockspace. These two goods are source of virtually all economic value that the bitcoin network provides.
+The better framework is that there are two [private goods](https://www.investopedia.com/terms/p/private-good.asp) produced by the bitcoin network, the second being blockspace. These two goods are the source of virtually all economic value that the bitcoin network provides.
 
 I am not the first to use this framework[^sztorc], but it is an important enough insight that it warrants a dedicated effort to drive the point home, which is the purpose of this essay.
 
