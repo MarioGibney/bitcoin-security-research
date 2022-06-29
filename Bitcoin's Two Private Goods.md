@@ -106,7 +106,7 @@ If we compare the two, we can see that Bob's activity constitutes greater demand
 
 All uses of bitcoin can be thought of on a spectrum from "BTC heavy, blockspace light" to "BTC light, blockspace heavy".
 
-At one end, you have large UTXOs remaining unmoved for years on end. At the other extreme, you have transactions with very low BTC being broadcast at high frequency. A second-layer protocol for colored coins could be one such example.
+At one end, you have large UTXOs remaining unmoved for years on end. At the other extreme, you have transactions with very few BTC being broadcast at high frequency. A second-layer protocol for colored coins could be one such example.
 
 
 ## Independent Values - To Be Continued
