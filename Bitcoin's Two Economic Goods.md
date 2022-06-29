@@ -8,7 +8,7 @@
 
 Bitcoin is often thought of as a network with a single economic good - the currency itself.
 
-The better framework is that there are two [economic goods](https://www.economicshelp.org/blog/11226/concepts/economic-goods-definition-and-examples/) produced by the bitcoin network, the second being blockspace. These two goods are the source of virtually all economic value that the bitcoin network provides.
+The better framework is that there are two [economic goods](https://www.economicshelp.org/blog/11226/concepts/economic-goods-definition-and-examples/)[^economicgoods] produced by the bitcoin network, the second being blockspace. These two goods are the source of virtually all economic value that the bitcoin network provides.
 
 I am not the first to use this framework[^sztorc], but it is an important enough insight that it warrants a dedicated effort to drive the point home, which is the purpose of this essay.
 
@@ -124,8 +124,9 @@ This is the topic of further research.
 
 Stay tuned, and thanks for reading :)
 
-Note: An earlier of this essay referred to BTC and blockspace as "private goods". Thanks to [Fernando Nietom](https://twitter.com/fnietom) for pointing out to me that the more precise term is "economic good". I have edited accordingly.
 
+
+[^economicgoods]: An earlier of this essay referred to BTC and blockspace as "private goods". Thanks to [Fernando Nietom](https://twitter.com/fnietom) for pointing out to me that the more precise term is "economic good".
 
 [^sztorc]: The earliest writing about this framework I am aware of is in Paul Sztorc’s [Security Budget in the Long Run](https://www.truthcoin.info/blog/security-budget/).
 
