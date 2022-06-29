@@ -115,7 +115,7 @@ If we agree that BTC and blockspace are indeed the two core separate goods of th
 
 BTC's value is the most commonly discussed attribute of the entire bitcoin system. There is an endless supply of information on how many USD it takes to purchase 1 BTC, so I won't attempt to add more to that topic.
 
-Blockspace's value is usually discussed as the sat/vbyte cost to get one's transaction confirmed in a block. But it is a trickier subject due to the phenomenon of supply still frequently outstripping demand - that is, many blocks still being less than full. Under such conditions, does a naive measurement of satoshis/vbyte give provide a meaningful impression of blockspace value?
+Blockspace's value is usually discussed as the satoshi/vbyte cost to get one's transaction confirmed in a block. But it is a trickier subject due to the phenomenon of supply still frequently outstripping demand - that is, many blocks still being less than full. Under such conditions, does a naive measurement of satoshi/vbyte give provide a meaningful impression of blockspace value?
 
 This is the topic of further research.
 
