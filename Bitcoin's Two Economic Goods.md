@@ -19,11 +19,9 @@ The goal of bitcoin was to create a digital bearer asset to allow parties to tra
 
 With this in mind, it is understandable that the bitcoin network is often conceptualized as a network with a single economic good associated with it - the currency also known as bitcoin. (To avoid confusion, for the rest of this piece I’ll refer the network as a whole as 'bitcoin', and to units of the currency as 'BTC'.)
 
-You use bitcoin by receiving and holding BTC, and when you want to send it to someone else, you pay a fee to a bitcoin miner to ensure your transaction is accepted by the rest of the network.
+The simple framework is that there's this bitcoin network, and on it there’s this one good called BTC, and you can transfer amounts of BTC by paying a fee to a miner.
 
-In summary, this simple conception is that there's this bitcoin network, and on it there’s this one good called BTC, and you can transfer amounts of BTC by paying a fee to a miner.
-
-This framework is good enough for a rudimentary understanding of bitcoin and how to use it at a basic level.
+This is good enough for a rudimentary understanding of bitcoin and how to use it at a basic level.
 
 But it falls far short of being precise enough to accurately reason about deeper nuances of how bitcoin works.
 
