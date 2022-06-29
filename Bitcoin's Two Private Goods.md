@@ -1,11 +1,13 @@
-<h1 align="center">Bitcoin’s Two Private Goods</h1>
+<h1 align="center">Bitcoin’s Two Economic Goods</h1>
 <h4 align="center">Mario Gibney</h5>
+
+Originally published June 2022.
 
 ## Introduction
 
-Bitcoin is often thought of as a network with a single good - units of the currency itself.
+Bitcoin is often thought of as a network with a single economic good - the currency itself.
 
-The better framework is that there are two [private goods](https://www.investopedia.com/terms/p/private-good.asp) produced by the bitcoin network, the second being blockspace. These two goods are the source of virtually all economic value that the bitcoin network provides.
+The better framework is that there are two [economic goods](https://www.economicshelp.org/blog/11226/concepts/economic-goods-definition-and-examples/) produced by the bitcoin network, the second being blockspace. These two goods are the source of virtually all economic value that the bitcoin network provides.
 
 I am not the first to use this framework[^sztorc], but it is an important enough insight that it warrants a dedicated effort to drive the point home, which is the purpose of this essay.
 
@@ -14,18 +16,18 @@ I am not the first to use this framework[^sztorc], but it is an important enough
 
 The goal of bitcoin was to create a digital bearer asset to allow parties to transfer value online without a trusted intermediary.
 
-With this in mind, it is understandable that the bitcoin network is often conceptualized as a network with a single good associated with it - the currency also known as bitcoin. (To avoid confusion, for the rest of this piece I’ll refer the network as a whole as 'bitcoin', and to units of the currency as 'BTC'.)
+With this in mind, it is understandable that the bitcoin network is often conceptualized as a network with a single economic good associated with it - the currency also known as bitcoin. (To avoid confusion, for the rest of this piece I’ll refer the network as a whole as 'bitcoin', and to units of the currency as 'BTC'.)
 
 You use bitcoin by receiving and holding BTC, and when you want to send it to someone else, you pay a fee to a bitcoin miner to ensure your transaction is accepted by the rest of the network.
 
 In summary, this simple conception is that there's this bitcoin network, and on it there’s this one good called BTC, and you can transfer amounts of BTC by paying a fee to a miner.
 
-This simple framework is good enough for a rudimentary understanding of bitcoin and how to use it at a basic level.
+This framework is good enough for a rudimentary understanding of bitcoin and how to use it at a basic level.
 
-But this model falls far short of being precise enough to accurately reason about deeper nuances of how bitcoin works.
+But it falls far short of being precise enough to accurately reason about deeper nuances of how bitcoin works.
 
 
-## A Second Bitcoin Good - The Birth of Blockspace
+## A Second Economic Good - The Birth of Blockspace
 
 To maintain its core properties, validating bitcoin’s activity - that is, running a bitcoin node - must remain cheap and affordable, lest control over the network fall into the hands of a small group of entities.
 
@@ -35,13 +37,13 @@ This necessity was first recognized indirectly, as a need to prevent spam, so bi
 
 If I say that there were serious implications from the establishment of this limit, many reading will probably think of bitcoin’s [blocksize war](https://www.amazon.com/Blocksize-War-control-Bitcoins-protocol-ebook/dp/B08Z18GWD6).
 
-But at a fundamental level, there was a more profound consequence. The establishment of that limit was the creation of an entirely new good - blockspace.
+But at a fundamental level, there was a more profound consequence. The establishment of that limit was the creation of an entirely new economic good - blockspace.
 
 Some began to realize that keeping the blocksize limited was important for a second reason other than constraining data throughput - it is crucial for blockspace to remain limited so that in the future demand can cause fees to rise to compensate for a declining block subsidy. Otherwise, miner revenue would dwindle to zero, leaving bitcoin trivially cheap to attack.
 
 Hence, blockspace eventually needs to be scarce.
 
-A second good is born from the bitcoin network.
+A second economic good is born from the bitcoin network.
 
 
 ## BTC vs Blockspace - Similarities and Differences
@@ -54,10 +56,10 @@ Both have a floating value set by the open market.
 
 BTC and blockspace both inherit many key properties from the bitcoin network itself that would be extremely difficult to be replicated by competing goods, such as other cryptocurrencies.
 
-Each asset also has played an important role in providing security for the bitcoin network.
+Each also plays an important role in providing security for the bitcoin network.
 
 
-Perhaps more interesting, though, are the ways in which these two resources different from each other.
+Perhaps more interesting, however, are the ways in which these two resources different from each other.
 
 
 | Blockspace|BTC|
@@ -111,18 +113,20 @@ At one end, you have large UTXOs remaining unmoved for years on end. At the othe
 
 ## Independent Values - To Be Continued
 
-If we agree that BTC and blockspace are indeed the two core separate goods of the bitcoin network, then it follows that we would have great interest in accurately tracking their respective values.
+If we agree that BTC and blockspace are indeed the two core economic goods of the bitcoin network, then it follows that we would have great interest in accurately tracking their respective values.
 
 BTC's value is the most commonly discussed attribute of the entire bitcoin system. There is an endless supply of information on how many USD it takes to purchase 1 BTC, so I won't attempt to add more to that topic.
 
-Blockspace's value is usually discussed as the satoshi/vbyte cost to get one's transaction confirmed in a block. But it is a trickier subject due to the phenomenon of supply still frequently outstripping demand - that is, many blocks still being less than full. Under such conditions, does a naive measurement of satoshi/vbyte give provide a meaningful impression of blockspace value?
+Blockspace's value is usually discussed as the satoshi/vbyte cost to get one's transaction confirmed in a block. But it is a trickier subject due to the persisting phenomenon of supply frequently outstripping demand - that is, many blocks still being less than full. Under such conditions, does a naive measurement of satoshi/vbyte give provide a meaningful impression of blockspace value?
 
 This is the topic of further research.
 
 Stay tuned, and thanks for reading :)
 
+Note: An earlier of this essay referred to BTC and blockspace as "private goods". Thanks to [Fernando Nietom](https://twitter.com/fnietom) for pointing out to me that the more precise term is "economic good". I have edited accordingly.
+
 
 [^sztorc]: The earliest writing about this framework I am aware of is in Paul Sztorc’s [Security Budget in the Long Run](https://www.truthcoin.info/blog/security-budget/).
 
-[^headerdata]: A caveat here: as was [pointed out to me](https://twitter.com/notgrubles/status/1540032047158378501) by Grubles, it is possible to use (and thereby derive economic value from) bitcoin by only referring to the data freely available in block headers, which generates zero extra demand for BTC or blockspace. This suggests that a truly complete picture of bitcoin is as a *three*-good system - two private goods (BTC and blockspace) and one [public good](https://www.investopedia.com/terms/p/public-good.asp) (block header data). It seems apparent, however, that the value independently provided by block headers is negligible compared to the value provided by blockspace and BTC, so I suggest that it can safely be ignored in most cases and the "two-good system" framework can be used with high precision.
+[^headerdata]: A caveat here: as was [pointed out to me](https://twitter.com/notgrubles/status/1540032047158378501) by Grubles, it is possible to use (and thereby derive economic value from) bitcoin by only referring to the data freely available in block headers, which generates zero extra demand for BTC or blockspace. This suggests that a truly complete picture of bitcoin is as a *three*-good system - two private goods (BTC and blockspace) and one [free good](https://www.economicshelp.org/blog/2844/economics/definition-of-a-free-good/) (block header data). It seems apparent, however, that the value independently provided by block headers is negligible compared to the value provided by blockspace and BTC, so I believe that it can safely be ignored in most cases and the "two-good system" framework can be used with high precision.
 
