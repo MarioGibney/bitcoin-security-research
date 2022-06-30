@@ -82,7 +82,7 @@ Blockspace can be used for a hypothetically infinite number of functions. With t
 
 BTC is more narrow in its purpose - it is for storing and transmitting value.
 
-Blockspace does not require the consumption of BTC. One could side-step the default transaction fee mechanism and pay a bitcoin miner out-of-band with a different currency to get some data written into a block. This wouldn’t require any BTC whatsoever.
+Blockspace consumption does not require the use of BTC. One could side-step the default transaction fee mechanism and pay a bitcoin miner out-of-band with a different currency to get some data written into a block. This wouldn’t require any BTC whatsoever.
 
 Meanwhile, using BTC requires using blockspace. Perhaps not directly, as there are various off-chain solutions to allow for the transmission of BTC. But ultimately, in one way or another these payments get aggregated into the consumption and creation of UTXOs, which requires blockspace.
 
