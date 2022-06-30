@@ -84,7 +84,7 @@ BTC is more narrow in its purpose - it is for storing and transmitting value.
 
 Blockspace consumption does not require the use of BTC. One could side-step the default transaction fee mechanism and pay a bitcoin miner out-of-band with a different currency to get some data written into a block. This wouldn’t require any BTC whatsoever.
 
-Meanwhile, using BTC requires using blockspace. Perhaps not directly, as there are various off-chain solutions to allow for the transmission of BTC. But ultimately, in one way or another these payments get aggregated into the consumption and creation of UTXOs, which requires blockspace.
+Meanwhile, using BTC requires using blockspace. Not directly, as there are various off-chain solutions that enable the transmission of BTC. But ultimately, in one way or another these payments get aggregated into the consumption and creation of UTXOs, which requires blockspace.
 
 Finally, while both goods have key roles to play in providing for bitcoin’s security, they have and will do so in very different ways. During bitcoin’s infancy (up to and including the time of writing), the vast majority of bitcoin’s security has been a function of the value of BTC. And barring any momentous change to bitcoin’s ruleset, the coming decades will see bitcoin mature to a point where its security is based on blockspace value.
 
@@ -93,21 +93,21 @@ Finally, while both goods have key roles to play in providing for bitcoin’s se
 
 I claim that virtually all of bitcoin's economic value is derived from BTC and blockspace.
 
-This is because almost[^headerdata] every use of the bitcoin network generates some demand for some combination of BTC and blockspace.
+This is because almost[^headerdata] every use of the bitcoin network generates demand for some combination of BTC and blockspace.
 
-And the proportion of demand for each can vary. Some use cases might be more blockspace heavy, and some more BTC heavy.
+Importantly, the proportion of demand for each good can vary. Some use cases might be more blockspace heavy, and some more BTC heavy.
 
 Let's look at a couple examples.
 
-Consider an early holder (Alice) with several dozen BTC held in cold storage. Once every few years she broadcasts a transaction sending a moderate amount to an exchange to make the occasional expense, and vice versa when she wants to add to her stack. But for most of the time, the UTXO(s) are sitting unmoved on the blockchain.
+Consider an early holder (Alice) with several dozen BTC held in cold storage. Once every few years she broadcasts a transaction to add to her savings, or to send a moderate amount to an exchange to make the occasional expense. But for most of the time, the UTXO(s) are sitting unmoved on the blockchain.
 
 Now consider someone (Bob) operating a lightning node. He has 0.01 BTC in several lightning channels, and a few times a month he opens and closes some of his channels.
 
-If we compare the two, we can see that Bob's activity constitutes greater demand for blockspace, while Alice's constitutes greater demand for BTC.
+If we compare the two, we can see that Bob's activity constitutes greater comparative demand for blockspace, and vice versa for Alice.
 
 All uses of bitcoin can be thought of on a spectrum from "BTC heavy, blockspace light" to "BTC light, blockspace heavy".
 
-At one end, you have large UTXOs remaining unmoved for years on end. At the other extreme, you have transactions with very few BTC being broadcast at high frequency. A protocol for colored coins operating on top of bitcoin transactions could be one such example.
+At one end, you have large UTXOs remaining unmoved for years on end. At the other extreme, you have transactions with minimal BTC in their inputs being broadcast at high frequency. A protocol for colored coins operating on top of bitcoin transactions could be one such example.
 
 
 ## Independent Values - To Be Continued
